@@ -35,8 +35,8 @@
     <link id="color-scheme" rel="stylesheet" href="./static/css/colors/default.css">
     <link rel="stylesheet" href="./static/about/about.css">
     <link rel="stylesheet" href="./static/about/bootstrapabout.css">
-    <link rel="stylesheet" href="./static/css/fullStackM.css">
-    <link href="//db.onlinewebfonts.com/c/6b75b24d502dab23003320c2e1b2fc68?family=Adobe+Arabic" rel="stylesheet" type="text/css"/>
+    <link rel="stylesheet" href="./static/css/aimlM.css">
+    <link href="https://db.onlinewebfonts.com/c/6b75b24d502dab23003320c2e1b2fc68?family=Adobe+Arabic" rel="stylesheet" type="text/css"/>
 	<style>
 @-webkit-keyframes zoom {
   from {
@@ -81,16 +81,16 @@
           <div class="collapse navbar-collapse" id="custom-collapse">
             <ul class="nav navbar-nav navbar-right">
               
-            <li class="dropdown"><a  href="./aboutus.html" >About Us</a>
+            <li class="dropdown"><a  href="./aboutus.php" >About Us</a>
               </li>
               <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">Solutions</a>
                 <ul class="dropdown-menu">
-                  <li><a href="./aiml_solutions.html">AI & ML Solutions</a></li>
-                  <li><a href="./sted.html">STED</a></li>
-                  <li><a href="./digital_branding.html">Digital Branding</a></li>
-                  <li><a href="./full_stack_development.html">Full Stack Development</a></li>
-                  <li><a href="./iot.html">IoT & Robotics</a></li>
-                  <li><a href="./arkun.html">Arkun</a></li>
+                  <li><a href="./aiml_solutions.php">AI & ML Solutions</a></li>
+                  <li><a href="./sted.php">STED</a></li>
+                  <li><a href="./digital_branding.php">Digital Branding</a></li>
+                  <li><a href="./full_stack_development.php">Full Stack Development</a></li>
+                  <li><a href="./iot.php">IoT & Robotics</a></li>
+                  <li><a href="./arkun.php">Arkun</a></li>
                 </ul>
               </li>
                  <li class="dropdown"><a href="./contact.php">Contact Us &nbsp;&nbsp;&nbsp;&nbsp;</a>
@@ -100,92 +100,93 @@
           </div>      
         </div>
       </nav>
-       
 	  
-	 <section class="module contact-page-header" id="home" data-background="./static/images/dev_export_assets/Desktop_assets/solutions/updated_full_stack.png" >
-    <div class="textbox">
-      <h1 class="full_stak_txt">Full Stack Development</h1>
+	 <!-- <section class="module contact-page-header" id="home" data-background="./static/images/)}}" > -->
+    <section class="module contact-page-header" id="home" data-background="./static/images/dev_export_assets/Desktop_assets/solutions/updated_AIML.png" >
+     <div class="textbox">
+      <h1 class="aiml-text">AI & ML Solutions</h1> 
     </div>
    </section>
 
+      <!-- Portfolio Grid -->
 
-      <section class="module aiml-page-body " id="home" data-background="./static/images/new_updated-images/new_updated_images/Services_background.png">
+      <section class="module aiml-page-body " id="home" data-background="static/images/new_updated-images/new_updated_images/Services_background.png">
         <div class="container">
           <h1>KEY FACTORS</h1>
+          <!-- <p>Lorem Ipsum dolor sit amet, consectetur adipiscing elit.</p> -->
           <div class="row">
               <div class="course-col">
-                  <img src="./static/images/full_stack_development/develop.png" alt="" srcset="">
-                  <h3>Develop</h3>
+                  <img src="./static/images/ideate.png" alt="" srcset="">
+                  <h3>Ideate</h3>
+                  <p>Extending our vision to ideate, using technology that meet your needs.</p>
+              </div>
+              <div class="course-col">
+                  <img src="./static/images/Innovate.png" alt="" srcset="">
+                  <h3>Innovate</h3>
                   <p>
-                    We develop websites that, efficiently <br/> responses and interacts with every person who needs you.
+                    Knowledge driven innovation, drives productivity which improves everyone's lives.
                   </p>
               </div>
               <div class="course-col">
-                  <img src="./static/images/full_stack_development/deploy.png" alt="" srcset="">
-                  <h3>Deploy</h3>
+                  <img src="./static/images/Build_and_deploy.png" alt="" srcset="">
+                  <h3>Build & Deploy</h3>
                   <p>
-                    We make sure that connecting you, is effortless by hosting the webiste in the required domain.
-                  </p>
-              </div>
-              <div class="course-col">
-                  <img src="./static/images/full_stack_development/web-maintenance.png" alt="" srcset="">
-                  <h3>Maintain</h3>
-                  <p>
-                    Since getting a quality website is not an expenses, but rather an investment, we maintain it by updating and upgrading.
+                    We deploy ideas that are built with a purpose which enhances the way of living.
                   </p>
               </div>
           </div>
          </div> 
       </section>
-      <section class="module aiml-page-body1" id="home" data-background="./static/images/worksbg.png">
+      <section class="module aiml-page-body1" id="home" data-background="./static/images/worksbg-n.png">
         <h1 class="our_works">OUR WORKS</h1>
         <div class="container">
             <div class="row">
                 <div class="facilities-col">
                     <div class="picture">
-                      <div class="fsd-works-img1">
-                        <img src="./static/images/works/fsd/Chappady1.png" >
+                      <div class="aiml-works-img1">
+                        <img src="./static/images/works/aiml/blue-policy.png">
                       </div>
                     </div>
                     <div class="text">
-                        <h3>Chappady Kovil</h3>
-                        <p>It is the website built for the temple located on hill-top section of Hosur District. It reflects the sanctity of the temple which is pure and clear
-                           Satyaki has put in, appropriate design in place well matched by developement to hold the purity.
+                        <h3>Bluepolicy</h3>
+                        <p>A German Based Company, Which Provides Real Time Solutions To Their Clients. We, Through Relentless Efforts Of Our Engineers, 
+                           Made Sure About Delivering A Robust Product Called Jam-Detection, Which Detects The Jam Of Delivered Boxes On Conveyer Belts 
+                           While Being Transported Over A Long Distance.
                         </p>
                     </div>
                 </div>
                 <div class="facilities-col">
                     <div class="picture">
-                      <div class="fsd-works-img2">
-                        <img src="./static/images/works/fsd/Sukeerti.png" >
+                      <div class="aiml-works-img2">
+                        <img src="./static/images/works//aiml/reliablesite.png">
                       </div>
                     </div>
                     <div class="text">
-                        <h3>Sukirti</h3>
-                        <p>It was a website built for a classical singer, a soulful teacher and a sensible anchor, Shubhashree. She resonates culture of India at it's roots.
-                           Satyaki created a theme to capture the pulse of her versatality in a digital footprint.
-                        </p>
+                        <h3>Reliablesite.Net</h3>
+                        <p>A LA Based Company, Serves Thousands Of Customers And Servers In Their In-House Maintained Infrastructures Spanning Multiple Data Centers.
+                           Satyaki Team Built A Robust AI Based Model, That Would Prevent Servers From DDOS Attack.
+                        <br/>
+                        <br/>
+                          </p>
                     </div>
                 </div>
                 <div class="facilities-col">
                     <div class="picture">
-                      <div class="fsd-works-img3">
-                        <img src="./static/images/works/fsd/covidDashboard1.png" >
+                      <div class="aiml-works-img3">
+                        <img src="./static/images/works/aiml/arkun.png">
                       </div>
                     </div>
                     <div class="text">
-                        <h3>Covid Dashboard</h3>
-                        <p>A dashboard which is a single window output for Covid-Safe, an in-house IoT product of Satyaki. It captures user information and admin controls through which
-                           device could be controlled by any smart device. This solution translates a stand-alone device into MIML solution.
+                        <h3>Arkun</h3>
+                        <p>An In-House SaaS, Which Customises Targeted Advertising For Businesses Of All Ranges. It Uses A Recorded Video With A Person, 
+                           That Helps Our Clients To Advertise With Their Customised Message. A Sheer Example Of Application Of AI/ML To Real-Time Problems.
                         </p>
                     </div>
                 </div>
             </div>
         </div>
-      </section> 	
-      <!-- <hr class="divider-w"><hr class="divider-w"> -->
-      <!-- <hr class="divider-d"> -->
-      <footer class="footer bg-dark">
+     </section> 
+     <footer class="footer bg-dark">
        <div class="container">
          <div class="row">
            <div class=" col-xs-6 col-sm-6">
@@ -200,7 +201,7 @@
            </div>
            <div class="col-xs-6 col-sm-6">
              <div class="footer-social-links">
-               <!-- <a href="https://www.facebook.com/Satyaki.co.in/"  target="_blank" ><i class="fa fa-facebook"></i></a>
+               <!-- <a href="https://www.facebook.com/Satyaki.co.in/" target="_blank"  ><i class="fa fa-facebook"></i></a>
                <a href="https://instagram.com/satyakisolutions/" target="_blank" ><i class="fa fa-instagram"></i></a>
                <a href="https://www.linkedin.com/company/satyaki-solutions/" target="_blank" ><i class="fa fa-linkedin"></i></a>
                <a href="https://twitter.com/SatyakiSolutio1" target="_blank" ><i class="fa fa-twitter"></i></a>

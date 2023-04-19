@@ -121,16 +121,16 @@ if(isset($_POST['submit'])) {
           <div class="collapse navbar-collapse" id="custom-collapse">
             <ul class="nav navbar-nav navbar-right">
               
-            <li class="dropdown"><a  href="./aboutus.html" >About Us</a>
+            <li class="dropdown"><a  href="./aboutus.php" >About Us</a>
               </li>
               <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">Solutions</a>
                 <ul class="dropdown-menu">
-                  <li><a href="./aisolutions.html">AI & ML Solutions</a></li>
-                  <li><a href="./sted.html">STED</a></li>
-                  <li><a href="./digital_branding.html">Digital Branding</a></li>
-                  <li><a href="./full_stack_development.html">Full Stack Development</a></li>
-                  <li><a href="./iot.html">IoT & Robotics</a></li>
-                  <li><a href="./arkunHomePage.html">Arkun</a></li>
+                  <li><a href="./aiml_solutions.php">AI & ML Solutions</a></li>
+                  <li><a href="./sted.php">STED</a></li>
+                  <li><a href="./digital_branding.php">Digital Branding</a></li>
+                  <li><a href="./full_stack_development.php">Full Stack Development</a></li>
+                  <li><a href="./iot.php">IoT & Robotics</a></li>
+                  <li><a href="./arkun.php">Arkun</a></li>
                 </ul>
             </ul>
           </div>      
@@ -149,13 +149,13 @@ if(isset($_POST['submit'])) {
         <div class="mobile">
          <div class="row">
             <div class="course-col">
-                <img src="./static/images/contactus/call.png" alt="" srcset="">
+                <img src="./static/images/contactus/call-n.png" alt="" srcset="">
                 <p>
                   +91 7411767400
                 </p>
             </div>
             <div class="course-col">
-                <img src="./static/images/contactus/placeholder.png" alt="" srcset="">
+                <img src="./static/images/contactus/placeholder-n.png" alt="" srcset="">
                 <p>
                    538, 34, 11th Cross Rd, 
                    near New Tippasandra, 
@@ -163,7 +163,7 @@ if(isset($_POST['submit'])) {
                 </p>
             </div>
             <div class="course-col">
-                <img src="./static/images/contactus/email.png" alt="" srcset="">
+                <img src="./static/images/contactus/email-n.png" alt="" srcset="">
                 <p>
                   info@satyaki.co.in
                 </p>
@@ -208,19 +208,19 @@ if(isset($_POST['submit'])) {
             <div class="icons">
               <div class="row">
                 <div class="icon-col1">
-                    <a href="https://www.facebook.com/Satyaki.co.in/"><img src="./static/images/contactus/facebook (1).png"/></a>
+                    <a href="https://www.facebook.com/Satyaki.co.in/"><img src="./static/images/contactus/facebook.png"/></a>
                 </div>
                 <div class="icon-col2">
-                    <a href="https://www.instagram.com/satyakisolutions/"><img src="./static/images/contactus/instagram (1).png"/></a>
+                    <a href="https://www.instagram.com/satyakisolutions/"><img src="./static/images/contactus/instagram.png"/></a>
                 </div>
                 <div class="icon-col3">
-                     <a href="https://www.linkedin.com/company/satyaki-solutions/"><img src="./static/images/contactus/linkedin (1).png"/></a>
+                     <a href="https://www.linkedin.com/company/satyaki-solutions/"><img src="./static/images/contactus/linked.png"/></a>
                 </div>
                 <div class="icon-col4">
-                     <a href="https://www.behance.net/satyakisolutio"><img src="./static/images/contactus/behance.png"/></a>
+                     <a href="https://www.behance.net/satyakisolutio"><img src="./static/images/contactus/behance-n.png"/></a>
                 </div>
                 <div class="icon-col5">
-                    <a href="https://youtube.com/channel/UC0YS9PxEXppwzpMoqKuGBuA"><img src="./static/images/contactus/youtube (3).png"/></a>
+                    <a href="https://youtube.com/channel/UC0YS9PxEXppwzpMoqKuGBuA"><img src="./static/images/contactus/youtube.png"/></a>
                 </div>
               </div>
             </div>
@@ -254,11 +254,24 @@ if(isset($_POST['submit'])) {
            </div>
            <div class="col-xs-6 col-sm-6">
              <div class="footer-social-links">
-               <a href="https://www.facebook.com/Satyaki.co.in/" ><i class="fa fa-facebook"></i></a>
+             <a
+               href="https://www.facebook.com/Satyaki.co.in/"
+               target="_blank"
+               ><img src="../../static/images/footer/facebook.png"/></a>
+             
+             <a href="https://twitter.com/SatyakiSolutio1" target="_blank"
+               ><img src="../../static/images/footer/twitter.png"/></a>
+
+             <a href="https://join.skype.com/invite/UweV0y1UZfDW" target="_blank"
+               ><img src="../../static/images/footer/skype.png"/></a>
+
+               <a href="https://maps.app.goo.gl/QT5qEenB2ck2CeKu8" target="_blank"
+               ><img src="../../static/images/footer/map.png"/></a>
+               <!-- <a href="https://www.facebook.com/Satyaki.co.in/" ><i class="fa fa-facebook"></i></a>
                <a href="https://instagram.com/satyakisolutions/"><i class="fa fa-instagram"></i></a>
                <a href="https://www.linkedin.com/company/satyaki-solutions/"><i class="fa fa-linkedin"></i></a>
                <a href="https://twitter.com/SatyakiSolutio1"><i class="fa fa-twitter"></i></a>
-               <a href="https://www.behance.net/satyakisolutio"><i class="fa fa-behance"></i></a>
+               <a href="https://www.behance.net/satyakisolutio"><i class="fa fa-behance"></i></a> -->
              </div>
            </div>
          </div>

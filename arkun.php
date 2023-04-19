@@ -124,24 +124,24 @@
           </div>
           <div class="collapse navbar-collapse" id="custom-collapse">
             <ul class="nav navbar-nav navbar-right">
-              <li class="dropdown"><a href="./aboutus.html">About Us</a></li>
+              <li class="dropdown"><a href="./aboutus.php">About Us</a></li>
               <li class="dropdown">
                 <a class="dropdown-toggle" href="#" data-toggle="dropdown"
                   >Solutions</a
                 >
                 <ul class="dropdown-menu">
-                  <li><a href="./aiml_solutions.html">AI & ML Solutions</a></li>
-                  <li><a href="./sted.html">STED</a></li>
+                  <li><a href="./aiml_solutions.php">AI & ML Solutions</a></li>
+                  <li><a href="./sted.php">STED</a></li>
                   <li>
-                    <a href="./digital_branding.html">Digital Branding</a>
+                    <a href="./digital_branding.php">Digital Branding</a>
                   </li>
                   <li>
-                    <a href="./full_stack_development.html"
+                    <a href="./full_stack_development.php"
                       >Full Stack Development</a
                     >
                   </li>
-                  <li><a href="./iot.html">IoT & Robotics</a></li>
-                  <li><a href="./arkun.html">Arkun</a></li>
+                  <li><a href="./iot.php">IoT & Robotics</a></li>
+                  <li><a href="./arkun.php">Arkun</a></li>
                 </ul>
               </li>
               <li class="dropdown">
@@ -152,17 +152,7 @@
         </div>
       </nav>
 
-      <!-- <section
-        class="module contact-page-header"
-        id="home"
-        data-background="./static/images/Arkun/arkunhome_banner2.png"
-      >
-        <div class="whatApp_box" style="text-align: end">
-          <img src="../../static/images/Arkun/whatsapp-icon.png" />
-          <br/>
-          <button class="message"><span>Message us</span></button>
-        </div>
-      </section> -->
+      
       <section class="main_section">
         <div class="display_desktop">
           <img src="../../static/images/Arkun/arkunhome_banner2.png" />
@@ -172,7 +162,9 @@
         </div>
 
         <div class="whatApp_box" style="text-align: end">
-          <img src="../../static/images/Arkun/whatsapp-icon.png" />
+          <!-- <a href="https://wa.me/9988775521"> -->
+            <img src="../../static/images/Arkun/whatsapp-icon.png" />
+          <!-- </a> -->
           <br />
           <button class="message"><span>Message us</span></button>
         </div>
@@ -249,11 +241,13 @@
                 <li>
                   SaaS Solution to create customized one to one video promotions
                 </li>
-                <li> Reach large-scale customers with Unique Message</li>
+                <li>
+                  Reach large-scale customers with Unique Message</li>
                 <li>
                   Saves your Time by Sending Multitude of Customers in one click
                 </li>
-                <li> Best Way to Tranform your Digital Advertising Journey</li>
+                <li>
+                  Best Way to Tranform your Digital Advertising Journey</li>
               </ol>
             </div>
           </div>
@@ -1397,7 +1391,7 @@
         </div>
       </section> -->
       <div style="background: #e7ffff; color: transparent; font-size: 8px">
-        a
+         a
       </div>
       <section
         class="module arkunhome-page-body1"
@@ -1410,7 +1404,6 @@
             <div class="facilities-col">
               <div class="picture">
                 <div class="aiml-works-img1">
-                  <!-- <img src="./static/images/works/aiml/blue-policy.png" /> -->
                   <video controls>
                     <source
                       src="./static/images/Arkun/podar.mp4"
@@ -1433,7 +1426,6 @@
             <div class="facilities-col">
               <div class="picture">
                 <div class="aiml-works-img2">
-                  <!-- <img src="./static/images/works//aiml/reliablesite.png" /> -->
                   <video controls>
                     <source
                       src="./static/images/Arkun/uniq-salon.mp4"
@@ -1458,20 +1450,20 @@
                 <div class="aiml-works-img3">
                   <video controls>
                     <source
-                      src="./static/images/Arkun/gym.mp4"
+                      src="./static/images/Arkun/neev.mp4"
                       type="video/mp4"
                     />
                   </video>
-                  <!-- <img src="./static/images/works/aiml/arkun.png" /> -->
                 </div>
               </div>
               <div class="text">
-                <h3>Gym</h3>
+                <h3>Neev</h3>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
-                  vulputate libero et velit interdum, ac aliquet odio mattis.lor
-                  sit amet, consectetur adipiscing elit. Nunc vulputate libero
-                  et velit interdum, ac aliquet odio mattis.
+                  Neev The Foundation,  a primary school offering independent
+                  and skilled counselors and psychologists in Delhi-NCR with a
+                  common goal to deliver effective counseling services and
+                  education. We as a team offered digital marketing through our
+                  latest product, Arkun. Gaining a boost for their foundation.
                 </p>
               </div>
             </div>

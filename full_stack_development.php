@@ -35,7 +35,7 @@
     <link id="color-scheme" rel="stylesheet" href="./static/css/colors/default.css">
     <link rel="stylesheet" href="./static/about/about.css">
     <link rel="stylesheet" href="./static/about/bootstrapabout.css">
-    <link rel="stylesheet" href="./static/css/stedM.css">
+    <link rel="stylesheet" href="./static/css/fullStackM.css">
     <link href="//db.onlinewebfonts.com/c/6b75b24d502dab23003320c2e1b2fc68?family=Adobe+Arabic" rel="stylesheet" type="text/css"/>
 	<style>
 @-webkit-keyframes zoom {
@@ -75,22 +75,22 @@
       <nav class="navbar navbar-custom navbar-fixed-top navbar-dark" role="navigation">
         <div>
           <div class="navbar-header">
-            <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#custom-collapse"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
-            </button><a class="navbar-logo" id="logo" href="/"><img src="./static/images/logo.png" alt="Satyaki" ></a>
+            <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#custom-collapse"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+            <a class="navbar-logo" id="logo" href="/"><img src="./static/images/logo.png" alt="Satyaki" ></a>
           </div>
           <div class="collapse navbar-collapse" id="custom-collapse">
             <ul class="nav navbar-nav navbar-right">
               
-            <li class="dropdown"><a  href="./aboutus.html" >About Us</a>
+            <li class="dropdown"><a  href="./aboutus.php" >About Us</a>
               </li>
               <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">Solutions</a>
                 <ul class="dropdown-menu">
-                  <li><a href="./aiml_solutions.html">AI & ML Solutions</a></li>
-                  <li><a href="./sted.html">STED</a></li>
-                  <li><a href="./digital_branding.html">Digital Branding</a></li>
-                  <li><a href="./full_stack_development.html">Full Stack Development</a></li>
-                  <li><a href="./iot.html">IoT & Robotics</a></li>
-                  <li><a href="./arkun.html">Arkun</a></li>
+                  <li><a href="./aiml_solutions.php">AI & ML Solutions</a></li>
+                  <li><a href="./sted.php">STED</a></li>
+                  <li><a href="./digital_branding.php">Digital Branding</a></li>
+                  <li><a href="./full_stack_development.php">Full Stack Development</a></li>
+                  <li><a href="./iot.php">IoT & Robotics</a></li>
+                  <li><a href="./arkun.php">Arkun</a></li>
                 </ul>
               </li>
                  <li class="dropdown"><a href="./contact.php">Contact Us &nbsp;&nbsp;&nbsp;&nbsp;</a>
@@ -102,38 +102,36 @@
       </nav>
        
 	  
-      <section class="module contact-page-header" data-background="./static/images/dev_export_assets/Desktop_assets/solutions/updated_sted.png">
-        <div class="textbox">
-          <h1 class="sted_text">Strong Testing E2E Delivery</h1>
-        </div>
-      </section>
+	 <section class="module contact-page-header" id="home" data-background="./static/images/dev_export_assets/Desktop_assets/solutions/updated_full_stack.png" >
+    <div class="textbox">
+      <h1 class="full_stak_txt">Full Stack Development</h1>
+    </div>
+   </section>
 
-      <!-- Portfolio Grid -->
 
-      <section class="module aiml-page-body " data-background="./static/images/new_updated-images/new_updated_images/Services_background.png">
+      <section class="module aiml-page-body " id="home" data-background="./static/images/new_updated-images/new_updated_images/Services_background.png">
         <div class="container">
           <h1>KEY FACTORS</h1>
-          <!-- <p>Lorem Ipsum dolor sit amet, consectetur adipiscing elit.</p> -->
           <div class="row">
               <div class="course-col">
-                  <img src="./static/images/sted/functional_testing.png" alt="" srcset="">
-                  <h3>Functional Testing</h3>
+                  <img src="./static/images/full_stack_development/develop.png" alt="" srcset="">
+                  <h3>Develop</h3>
                   <p>
-                    We as testers don’t like to break things,<br/>we would dismantle the illusion that things work.</p>
+                    We develop websites that, efficiently <br/> responses and interacts with every person who needs you.
                   </p>
               </div>
               <div class="course-col">
-                  <img src="./static/images/sted/non_functional_testing.png" alt="" srcset="">
-                  <h3>Non Functional Testing</h3>
+                  <img src="./static/images/full_stack_development/deploy.png" alt="" srcset="">
+                  <h3>Deploy</h3>
                   <p>
-                    We being experts remove hidden defects, which is resolved technically, using robust metrics and measurements.
+                    We make sure that connecting you, is effortless by hosting the webiste in the required domain.
                   </p>
               </div>
               <div class="course-col">
-                  <img src="./static/images/sted/maintainance.png" alt="" srcset="">
-                  <h3>Maintenance</h3>
+                  <img src="./static/images/full_stack_development/web-maintenance.png" alt="" srcset="">
+                  <h3>Maintain</h3>
                   <p>
-                    Quality is not an act, it is a habit and we make sure it is maintained mangificently.
+                    Since getting a quality website is not an expenses, but rather an investment, we maintain it by updating and upgrading.
                   </p>
               </div>
           </div>
@@ -145,53 +143,49 @@
             <div class="row">
                 <div class="facilities-col">
                     <div class="picture">
-                      <div class="sted-works-img1">
-                        <img src="./static/images/works/sted/bioiq.jpeg">
+                      <div class="fsd-works-img1">
+                        <img src="./static/images/works/fsd/Chappady1.png" >
                       </div>
                     </div>
                     <div class="text">
-                        <h3>BioIQ</h3>
-                        <p>An US Based Company Which Is A Healthcare Engagement And Quality Care Gap Closure Company That Is Redefining 
-                           The Way Payers, Employers And Consumers Navigate. Our Testers Are Competitive Enough To Keep Our Client's Words
-                           "We Get The Right Care Done!", Intact By Delivering Precise Regression Testing.
+                        <h3>Chappady Kovil</h3>
+                        <p>It is the website built for the temple located on hill-top section of Hosur District. It reflects the sanctity of the temple which is pure and clear
+                           Satyaki has put in, appropriate design in place well matched by developement to hold the purity.
                         </p>
                     </div>
                 </div>
                 <div class="facilities-col">
                     <div class="picture">
-                      <div class="sted-works-img2">
-                        <img src="./static/images/works/sted/redrt.png" >
+                      <div class="fsd-works-img2">
+                        <img src="./static/images/works/fsd/Sukeerti.png" >
                       </div>
                     </div>
                     <div class="text">
-                        <h3>Redrt.Me</h3>
-                        <p>An American Company Portal Nation LLC Joined Hands With Satyaki, To Establish A Product Named Redrt, 
-                           Which Shortens Their Client's Links And Help Them In Controlling Where It's Visitors Traverse Through The Internet. 
-                           Wherein We At Satyaki, Helped Them To Understand The Bottle-Necks, They Would Face In Terms Of Performance.
+                        <h3>Sukirti</h3>
+                        <p>It was a website built for a classical singer, a soulful teacher and a sensible anchor, Shubhashree. She resonates culture of India at it's roots.
+                           Satyaki created a theme to capture the pulse of her versatality in a digital footprint.
                         </p>
                     </div>
                 </div>
                 <div class="facilities-col">
                     <div class="picture">
-                      <div class="sted-works-img3">
-                        <img src="./static/images/works/sted/stanra.jpg">
+                      <div class="fsd-works-img3">
+                        <img src="./static/images/works/fsd/covidDashboard1.png" >
                       </div>
                     </div>
                     <div class="text">
-                        <h3>Stanra</h3>
-                        <p>An Indian-Origin Company, Which Provides Real Time Solutions To Their Clients. 
-                           Satyaki's QA Team Through Vigorous Efforts, Are Providing A Rugged E2E Testing Process, 
-                           To Monitor Finest Quality Of The Product, Which Detects Person On Street, For Various Purposes, Deriving Various Use-Cases.
+                        <h3>Covid Dashboard</h3>
+                        <p>A dashboard which is a single window output for Covid-Safe, an in-house IoT product of Satyaki. It captures user information and admin controls through which
+                           device could be controlled by any smart device. This solution translates a stand-alone device into MIML solution.
                         </p>
                     </div>
                 </div>
             </div>
         </div>
-      </section> 
-
-<!-- <hr class="divider-w"><hr class="divider-w">
-     <hr class="divider-d"> -->
-     <footer class="footer bg-dark">
+      </section> 	
+      <!-- <hr class="divider-w"><hr class="divider-w"> -->
+      <!-- <hr class="divider-d"> -->
+      <footer class="footer bg-dark">
        <div class="container">
          <div class="row">
            <div class=" col-xs-6 col-sm-6">
@@ -206,7 +200,7 @@
            </div>
            <div class="col-xs-6 col-sm-6">
              <div class="footer-social-links">
-               <!-- <a href="https://www.facebook.com/Satyaki.co.in/" target="_blank" ><i class="fa fa-facebook"></i></a>
+               <!-- <a href="https://www.facebook.com/Satyaki.co.in/"  target="_blank" ><i class="fa fa-facebook"></i></a>
                <a href="https://instagram.com/satyakisolutions/" target="_blank" ><i class="fa fa-instagram"></i></a>
                <a href="https://www.linkedin.com/company/satyaki-solutions/" target="_blank" ><i class="fa fa-linkedin"></i></a>
                <a href="https://twitter.com/SatyakiSolutio1" target="_blank" ><i class="fa fa-twitter"></i></a>

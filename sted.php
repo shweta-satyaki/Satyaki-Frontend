@@ -35,7 +35,7 @@
     <link id="color-scheme" rel="stylesheet" href="./static/css/colors/default.css">
     <link rel="stylesheet" href="./static/about/about.css">
     <link rel="stylesheet" href="./static/about/bootstrapabout.css">
-    <link rel="stylesheet" href="./static/css/iotM.css">
+    <link rel="stylesheet" href="./static/css/stedM.css">
     <link href="//db.onlinewebfonts.com/c/6b75b24d502dab23003320c2e1b2fc68?family=Adobe+Arabic" rel="stylesheet" type="text/css"/>
 	<style>
 @-webkit-keyframes zoom {
@@ -75,22 +75,22 @@
       <nav class="navbar navbar-custom navbar-fixed-top navbar-dark" role="navigation">
         <div>
           <div class="navbar-header">
-            <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#custom-collapse"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
-            <a class="navbar-logo" id="logo" href="/"><img src="./static/images/logo.png" alt="Satyaki" ></a>
+            <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#custom-collapse"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+            </button><a class="navbar-logo" id="logo" href="/"><img src="./static/images/logo.png" alt="Satyaki" ></a>
           </div>
           <div class="collapse navbar-collapse" id="custom-collapse">
             <ul class="nav navbar-nav navbar-right">
               
-            <li class="dropdown"><a  href="./aboutus.html" >About Us</a>
+            <li class="dropdown"><a  href="./aboutus.php" >About Us</a>
               </li>
               <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">Solutions</a>
                 <ul class="dropdown-menu">
-                  <li><a href="./aiml_solutions.html">AI & ML Solutions</a></li>
-                  <li><a href="./sted.html">STED</a></li>
-                  <li><a href="./digital_branding.html">Digital Branding</a></li>
-                  <li><a href="./full_stack_development.html">Full Stack Development</a></li>
-                  <li><a href="./iot.html">IoT & Robotics</a></li>
-                  <li><a href="./arkun.html">Arkun</a></li>
+                  <li><a href="./aiml_solutions.php">AI & ML Solutions</a></li>
+                  <li><a href="./sted.php">STED</a></li>
+                  <li><a href="./digital_branding.php">Digital Branding</a></li>
+                  <li><a href="./full_stack_development.php">Full Stack Development</a></li>
+                  <li><a href="./iot.php">IoT & Robotics</a></li>
+                  <li><a href="./arkun.php">Arkun</a></li>
                 </ul>
               </li>
                  <li class="dropdown"><a href="./contact.php">Contact Us &nbsp;&nbsp;&nbsp;&nbsp;</a>
@@ -102,43 +102,38 @@
       </nav>
        
 	  
-	 <section class="module contact-page-header" id="home" data-background="./static/images/dev_export_assets/Desktop_assets/solutions/iot.png" >
-    <div class="textbox">
-      <h1 class="iot_text">IoT & Robotics</h1>
-    </div>
-   </section>
+      <section class="module contact-page-header" data-background="./static/images/dev_export_assets/Desktop_assets/solutions/updated_sted.png">
+        <div class="textbox">
+          <h1 class="sted_text">Strong Testing E2E Delivery</h1>
+        </div>
+      </section>
 
       <!-- Portfolio Grid -->
 
-      <section class="module aiml-page-body " id="home" data-background="./static/images/new_updated-images/new_updated_images/Services_background.png">
+      <section class="module aiml-page-body " data-background="./static/images/new_updated-images/new_updated_images/Services_background.png">
         <div class="container">
           <h1>KEY FACTORS</h1>
           <!-- <p>Lorem Ipsum dolor sit amet, consectetur adipiscing elit.</p> -->
           <div class="row">
               <div class="course-col">
-                  <img src="./static/images/iot/iot.png" alt="" srcset=""><br/>
-                  <br/>
-                  <br/>
-                  <br/>
-                  <br/>
-                  <br/>
-                  <h3>IoT</h3>
+                  <img src="./static/images/sted/functional_testing.png" alt="" srcset="">
+                  <h3>Functional Testing</h3>
                   <p>
-                    IoT ventures are extremely alluring by offering very lucrative returns to investors.
+                    We as testers don’t like to break things,<br/>we would dismantle the illusion that things work.</p>
                   </p>
               </div>
               <div class="course-col">
-                  <img src="./static/images/iot/robotic-arm.png" alt="" srcset="">
-                  <h3>Robotics</h3>
+                  <img src="./static/images/sted/non_functional_testing.png" alt="" srcset="">
+                  <h3>Non Functional Testing</h3>
                   <p>
-                    We are experts in automating real time needs as promising solutions to make human life easier.  
+                    We being experts remove hidden defects, which is resolved technically, using robust metrics and measurements.
                   </p>
               </div>
               <div class="course-col">
-                  <img src="./static/images/iot/prog.png" alt="" srcset="">
-                  <h3>Programming</h3>
+                  <img src="./static/images/sted/maintainance.png" alt="" srcset="">
+                  <h3>Maintenance</h3>
                   <p>
-                    We deliver purpose and needful ML solutions for real world Interactive expireinece.
+                    Quality is not an act, it is a habit and we make sure it is maintained mangificently.
                   </p>
               </div>
           </div>
@@ -150,49 +145,52 @@
             <div class="row">
                 <div class="facilities-col">
                     <div class="picture">
-                      <div class="iot-works-img1">
-                        <img src="./static/images/works/iot/Smartcity1.png" >
+                      <div class="sted-works-img1">
+                        <img src="./static/images/works/sted/bioiq.jpeg">
                       </div>
                     </div>
                     <div class="text">
-                        <h3>Smart City</h3>
-                        <p>An innovative project which won the first prize at a national level competition, at IIT.
-                           which involved smart solution on energy conservation.<br/>
-                           <br/>
+                        <h3>BioIQ</h3>
+                        <p>An US Based Company Which Is A Healthcare Engagement And Quality Care Gap Closure Company That Is Redefining 
+                           The Way Payers, Employers And Consumers Navigate. Our Testers Are Competitive Enough To Keep Our Client's Words
+                           "We Get The Right Care Done!", Intact By Delivering Precise Regression Testing.
                         </p>
                     </div>
                 </div>
                 <div class="facilities-col">
                     <div class="picture">
-                      <div class="iot-works-img2">
-                        <img src="./static/images/works/iot/Data1.png" >
+                      <div class="sted-works-img2">
+                        <img src="./static/images/works/sted/redrt.png" >
                       </div>
                     </div>
                     <div class="text">
-                        <h3>Data Monitoring</h3>
-                        <p>A mini robot which was deployed to Monitor visitors in a data centres, it also worked as path guider, to request
-                           a data block and also gives live monitoring for visitors and reading temparature of data block regularly.
+                        <h3>Redrt.Me</h3>
+                        <p>An American Company Portal Nation LLC Joined Hands With Satyaki, To Establish A Product Named Redrt, 
+                           Which Shortens Their Client's Links And Help Them In Controlling Where It's Visitors Traverse Through The Internet. 
+                           Wherein We At Satyaki, Helped Them To Understand The Bottle-Necks, They Would Face In Terms Of Performance.
                         </p>
                     </div>
                 </div>
                 <div class="facilities-col">
                     <div class="picture">
-                      <div class="iot-works-img3">
-                        <img src="./static/images/works/iot/covidsafe2.png" >
+                      <div class="sted-works-img3">
+                        <img src="./static/images/works/sted/stanra.jpg">
                       </div>
                     </div>
                     <div class="text">
-                        <h3>Covid Safe</h3>
-                        <p>It is an in-house iot device which is a combination of sanitizer dispenser, CV to screen people from a distance of 50cms far to read
-                           temperature, and declare if the person is covid safe.
+                        <h3>Stanra</h3>
+                        <p>An Indian-Origin Company, Which Provides Real Time Solutions To Their Clients. 
+                           Satyaki's QA Team Through Vigorous Efforts, Are Providing A Rugged E2E Testing Process, 
+                           To Monitor Finest Quality Of The Product, Which Detects Person On Street, For Various Purposes, Deriving Various Use-Cases.
                         </p>
                     </div>
                 </div>
             </div>
         </div>
-     </section> 
-<!-- <hr class="divider-w"><hr class="divider-w"> -->
-     <!-- <hr class="divider-d"> -->
+      </section> 
+
+<!-- <hr class="divider-w"><hr class="divider-w">
+     <hr class="divider-d"> -->
      <footer class="footer bg-dark">
        <div class="container">
          <div class="row">
@@ -213,7 +211,7 @@
                <a href="https://www.linkedin.com/company/satyaki-solutions/" target="_blank" ><i class="fa fa-linkedin"></i></a>
                <a href="https://twitter.com/SatyakiSolutio1" target="_blank" ><i class="fa fa-twitter"></i></a>
                <a href="https://www.behance.net/satyakisolutio" target="_blank" ><i class="fa fa-behance"></i></a> -->
-            
+             
                <a
                href="https://www.facebook.com/Satyaki.co.in/"
                target="_blank"
@@ -257,8 +255,3 @@
  -->
  
 </html>
-
-
-
-<!--  payment code -->
-<!-- https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_checkout_form -->

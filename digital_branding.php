@@ -79,19 +79,19 @@
           <div class="collapse navbar-collapse" id="custom-collapse">
             <ul class="nav navbar-nav navbar-right">
               
-            <li class="dropdown"><a  href="./aboutus.html" >About Us</a>
+            <li class="dropdown"><a  href="./aboutus.php" >About Us</a>
               </li>
               <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">Solutions</a>
                 <ul class="dropdown-menu">
-                  <li><a href="./aisolutions.html">AI & ML Solutions</a></li>
-                  <li><a href="./sted.html">STED</a></li>
-                  <li><a href="./digital_branding.html">Digital Branding</a></li>
-                  <li><a href="./full_stack_development.html">Full Stack Development</a></li>
-                  <li><a href="./iot.html">IoT & Robotics</a></li>
-                  <li><a href="./arkun.html">Arkun</a></li>
+                  <li><a href="./aisolutions.php">AI & ML Solutions</a></li>
+                  <li><a href="./sted.php">STED</a></li>
+                  <li><a href="./digital_branding.php">Digital Branding</a></li>
+                  <li><a href="./full_stack_development.php">Full Stack Development</a></li>
+                  <li><a href="./iot.php">IoT & Robotics</a></li>
+                  <li><a href="./arkun.php">Arkun</a></li>
                 </ul>
               </li>
-                 <li class="dropdown"><a href="./contact.html">Contact Us &nbsp;&nbsp;&nbsp;&nbsp;</a>
+                 <li class="dropdown"><a href="./contact.php">Contact Us &nbsp;&nbsp;&nbsp;&nbsp;</a>
               </li>
             </ul>
           </div>      
