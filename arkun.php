@@ -1411,7 +1411,7 @@
               <div class="picture">
                 <div class="aiml-works-img1">
                   <!-- <img src="./static/images/works/aiml/blue-policy.png" /> -->
-                  <video controls>
+                  <video autoplay muted controls>
                     <source
                       src="./static/images/Arkun/podar.mp4"
                       type="video/mp4"
@@ -1434,7 +1434,7 @@
               <div class="picture">
                 <div class="aiml-works-img2">
                   <!-- <img src="./static/images/works//aiml/reliablesite.png" /> -->
-                  <video controls>
+                  <video autoplay muted controls>
                     <source
                       src="./static/images/Arkun/uniq-salon.mp4"
                       type="video/mp4"
@@ -1456,7 +1456,7 @@
             <div class="facilities-col">
               <div class="picture">
                 <div class="aiml-works-img3">
-                  <video controls>
+                  <video autoplay muted controls>
                     <source
                       src="./static/images/Arkun/gym.mp4"
                       type="video/mp4"
