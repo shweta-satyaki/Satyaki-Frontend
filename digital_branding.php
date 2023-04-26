@@ -83,7 +83,7 @@
               </li>
               <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">Solutions</a>
                 <ul class="dropdown-menu">
-                  <li><a href="./aisolutions.php">AI & ML Solutions</a></li>
+                  <li><a href="./aiml_solutions.php">AI & ML Solutions</a></li>
                   <li><a href="./sted.php">STED</a></li>
                   <li><a href="./digital_branding.php">Digital Branding</a></li>
                   <li><a href="./full_stack_development.php">Full Stack Development</a></li>
