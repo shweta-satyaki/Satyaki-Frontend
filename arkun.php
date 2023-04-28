@@ -66,7 +66,7 @@
       rel="stylesheet"
       type="text/css"
     />
-
+    <link rel="stylesheet" href="./static/css/arkun_table.css" />
     <style>
       @-webkit-keyframes zoom {
         from {
@@ -208,7 +208,7 @@
             </div>
             <div class="course-col">
               <img src="./static/images/Arkun/thumbnail.png" alt="" srcset="" />
-              <h3 style="margin-top: 18px">Add Thumbnail</h3>
+              <h3 style="margin-top: 24px">Add Thumbnail</h3>
               <p>
                 Customising video with unique thumbnail as per
                 existing/potential client base
@@ -220,7 +220,7 @@
                 alt=""
                 srcset=""
               />
-              <h3>Add Music & Speech</h3>
+              <h3 style="margin-top: 15px;">Add Music & Speech</h3>
               <p>
                 Adding background music and unique speech as per
                 existing/potential client base
@@ -1055,6 +1055,793 @@
         </div>
       </section>
 
+    <!-- mobile table -->
+
+    <div id="mobile_table_scroll" class="mobile_table_scroll">
+      <div class="table-wrap">
+        <table class="main-table">
+          <thead>
+
+
+            
+            <tr style="background:transparent !important;">
+              <th
+                class="fixed-side"
+                scope="col"
+                style="
+                  font-weight: 700;
+                  font-size: 24px;
+                  color: #072259;
+                  line-height: 20px;
+                  font-family: 'Adobe Arabic';
+                "
+              >
+                Choose your Plan
+              </th>
+              <th scope="col" style="background:transparent;">
+                <div class="box_table">
+                  <p>
+                    <br/><span style="font-size:24px">Basic </span><br />
+                    <span
+                      style="font-weight: 700; font-size: 30px; color: #0e3482"
+                      ><img
+                        src="../../static/images/Arkun/INR.png"
+                        class="inrr_imgg"
+                      />6,999 </span
+                    ><br /><span class="mobile_greentxt"
+                      >*Applicable taxes per month <br/></span
+                    >
+                    
+                  </p>
+                </div>
+                <a href="#"
+                  ><button
+                    style="
+                      width: 100%;
+                      background: #e4f7ff;
+                      color: #003e77;
+                      font-size: 24px;
+                      font-weight: 700;
+                      border: none;
+                      font-family: 'Adobe Arabic';
+                      /* margin: 0px 20px; */
+                    "
+                  >
+                    BUY NOW
+                  </button>
+                </a>
+              </th>
+              <th scope="col">
+                <div class="box_table">
+                  <p>
+                   <br/><span style="font-size:24px;"> Pro </span><br />
+                    <span
+                      style="font-weight: 700; font-size: 30px; color: #0e3482"
+                      ><img
+                        src="../../static/images/Arkun/INR.png"
+                        class="inrr_imgg"
+                      />9,999 </span
+                    ><br /><span class="mobile_greentxt"
+                      >*Applicable taxes per month </span
+                    >
+                
+                 
+                  </p>
+                </div>
+                <a href="#"
+                  ><button
+                    style="
+                      width: 100%;
+                      background: #e4f7ff;
+                      color: #003e77;
+                      font-size: 24px;
+                      font-weight: 700;
+                      border: none;
+                      font-family: 'Adobe Arabic';
+                      /* margin: 0px 20px; */
+                    "
+                  >
+                    BUY NOW
+                  </button>
+                </a>
+              </th>
+              <th scope="col">
+                <div class="box_table">
+                  <p style="    padding: 26px 10px;">
+                   <!-- <br/> -->
+                   <br/> <span style="font-size:24px">PREMIUM</span> <br />
+                    
+                   <span class="mobile_greentxt"
+                      >*Customizable Features</span
+                    >
+               
+                  </p>
+                  
+                </div>
+                <a href="#"
+                  ><button
+                    style="
+                      width: 100%;
+                      background: #e4f7ff;
+                      color: #003e77;
+                      font-size: 24px;
+                      font-weight: 700;
+                      border: none;
+                      font-family: 'Adobe Arabic';
+                      text-transform: uppercase;
+                      /* margin: 0px 20px; */
+                    "
+                  >
+                  contact us
+                  </button>
+                </a>
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+          <tr style="background: transparent !important;">
+              <th
+                class="fixed-side"
+                style="
+                  background: transparent !important;
+                "
+              >
+              &nbsp;
+              </th>
+              <td>&nbsp;</td>
+              <td>&nbsp;</td>
+              <td>&nbsp;</td>
+            </tr>
+
+            <tr>
+
+            <tr style="background: rgba(245, 252, 255, 0.56) !important;">
+              <th
+                class="fixed-side"
+                style="
+                  font-family: 'Adobe Arabic';
+                  font-weight: 700;
+                  font-size: 20px;
+                  line-height: 24px;
+                  color: #113f9d;
+                  text-align: left;
+                  background: rgba(245, 252, 255, 0.56) !important;
+                "
+              >
+                Top features
+              </th>
+              <td>&nbsp;</td>
+              <td>&nbsp;</td>
+              <td>&nbsp;</td>
+            </tr>
+
+            <tr>
+              <th
+                class="fixed-side"
+                style="
+                  font-family: 'Adobe Arabic';
+                  font-weight: 500;
+                  font-size: 20px;
+                  line-height: 24px;
+                  color: #113f9d;
+                  text-align: left;
+                "
+              >
+              Customizing Videos
+              </th>
+              <td
+                style="
+                  font-family: 'Adobe Arabic';
+                  font-size: 18px;
+                  line-height: 24px;
+                  color: #272727;
+                  text-align: center;
+                "
+              >
+                <i
+                  class="fa fa-check-circle green-color"
+                  style="color: #019a0d"
+                >
+                </i>
+                Yes
+              </td>
+              <td
+                style="
+                  font-family: 'Adobe Arabic';
+                  font-size: 18px;
+                  line-height: 24px;
+                  color: #272727;
+                  text-align: center;
+                "
+              >
+                <i
+                  class="fa fa-check-circle green-color"
+                  style="color: #019a0d"
+                >
+                </i>
+                Yes
+              </td>
+              <td
+              style="
+                font-family: 'Adobe Arabic';
+                font-size: 18px;
+                line-height: 24px;
+                color: #272727;
+                text-align: center;
+              "
+            >
+              <i
+                class="fa fa-check-circle green-color"
+                style="color: #019a0d"
+              >
+              </i>
+              Yes
+            </td>
+            </tr>
+
+            <tr>
+              <th
+                class="fixed-side"
+                style="
+                  font-family: 'Adobe Arabic';
+                  font-weight: 500;
+                  font-size: 20px;
+                  line-height: 24px;
+                  color: #113f9d;
+                  text-align: left;
+                  background: #FCFBFB !important;
+                "
+              >
+                Video variant count
+              </th>
+              <td
+                style="
+                  font-family: 'Adobe Arabic';
+                  font-size: 18px;
+                  line-height: 24px;
+                  color: #272727;
+                  text-align: center;
+                "
+              >
+              One
+              </td>
+              <td
+                style="
+                  font-family: 'Adobe Arabic';
+                  font-size: 18px;
+                  line-height: 24px;
+                  color: #272727;
+                  text-align: center;
+                "
+              >
+              One
+              </td>
+              <td
+              style="
+                font-family: 'Adobe Arabic';
+                font-size: 18px;
+                line-height: 24px;
+                color: #272727;
+                text-align: center;
+              "
+            >
+              Three
+            </td>
+            </tr>
+
+            <tr>
+              <th
+                class="fixed-side"
+                style="
+                  font-family: 'Adobe Arabic';
+                  font-weight: 500;
+                  font-size: 20px;
+                  line-height: 24px;
+                  color: #113f9d;
+                  text-align: left;
+                "
+              >
+              Broadcasting Videos 
+              </th>
+              <td
+                style="
+                  font-family: 'Adobe Arabic';
+                  font-size: 18px;
+                  line-height: 24px;
+                  color: #272727;
+                  text-align: center;
+                "
+              >
+                <i
+                  class="fa fa-check-circle green-color"
+                  style="color: #019a0d"
+                >
+                </i>
+                Yes
+              </td>
+              <td
+                style="
+                  font-family: 'Adobe Arabic';
+                  font-size: 18px;
+                  line-height: 24px;
+                  color: #272727;
+                  text-align: center;
+                "
+              >
+                <i
+                  class="fa fa-check-circle green-color"
+                  style="color: #019a0d"
+                >
+                </i>
+                Yes
+              </td>
+              <td
+              style="
+                font-family: 'Adobe Arabic';
+                font-size: 18px;
+                line-height: 24px;
+                color: #272727;
+                text-align: center;
+              "
+            >
+              <i
+                class="fa fa-check-circle green-color"
+                style="color: #019a0d"
+              >
+              </i>
+              Yes
+            </td>
+            </tr>
+
+            <tr>
+              <th
+                class="fixed-side"
+                style="
+                  font-family: 'Adobe Arabic';
+                  font-weight: 500;
+                  font-size: 20px;
+                  line-height: 24px;
+                  color: #113f9d;
+                  text-align: left;
+                  background: #FCFBFB !important;
+                "
+              >
+              Video count
+              </th>
+              <td
+                style="
+                  font-family: 'Adobe Arabic';
+                  font-size: 18px;
+                  line-height: 24px;
+                  color: #272727;
+                  text-align: center;
+                "
+              >
+              500
+              </td>
+              <td
+                style="
+                  font-family: 'Adobe Arabic';
+                  font-size: 18px;
+                  line-height: 24px;
+                  color: #272727;
+                  text-align: center;
+                "
+              >
+              1000
+              </td>
+              <td
+              style="
+                font-family: 'Adobe Arabic';
+                font-size: 18px;
+                line-height: 24px;
+                color: #272727;
+                text-align: center;
+              "
+            >
+            5000
+            </td>
+            </tr>
+
+            <tr>
+              <th
+                class="fixed-side"
+                style="
+                  font-family: 'Adobe Arabic';
+                  font-weight: 500;
+                  font-size: 20px;
+                  line-height: 24px;
+                  color: #113f9d;
+                  text-align: left;
+                "
+              >
+              Customer contact database
+              </th>
+              <td
+                style="
+                  font-family: 'Adobe Arabic';
+                  font-size: 18px;
+                  line-height: 24px;
+                  color: #272727;
+                  text-align: center;
+                "
+              >
+              Contact us
+              </td>
+              <td
+                style="
+                  font-family: 'Adobe Arabic';
+                  font-size: 18px;
+                  line-height: 24px;
+                  color: #272727;
+                  text-align: center;
+                "
+              >
+              Contact us
+              </td>
+              <td
+              style="
+                font-family: 'Adobe Arabic';
+                font-size: 18px;
+                line-height: 24px;
+                color: #272727;
+                text-align: center;
+              "
+            >
+            Contact us
+            </td>
+            </tr>
+
+            <tr>
+              <th
+                class="fixed-side"
+                style="
+                  font-family: 'Adobe Arabic';
+                  font-weight: 500;
+                  font-size: 20px;
+                  line-height: 24px;
+                  color: #113f9d;
+                  text-align: left;
+                  background: #FCFBFB !important;
+                "
+              >
+              Background music
+              </th>
+              <td
+                style="
+                  font-family: 'Adobe Arabic';
+                  font-size: 18px;
+                  line-height: 24px;
+                  color: #272727;
+                  text-align: center;
+                "
+              >
+                <i
+                  class="fa fa-check-circle green-color"
+                  style="color: #019a0d"
+                >
+                </i>
+                Yes
+              </td>
+              <td
+                style="
+                  font-family: 'Adobe Arabic';
+                  font-size: 18px;
+                  line-height: 24px;
+                  color: #272727;
+                  text-align: center;
+                "
+              >
+                <i
+                  class="fa fa-check-circle green-color"
+                  style="color: #019a0d"
+                >
+                </i>
+                Yes
+              </td>
+              <td
+              style="
+                font-family: 'Adobe Arabic';
+                font-size: 18px;
+                line-height: 24px;
+                color: #272727;
+                text-align: center;
+              "
+            >
+              <i
+                class="fa fa-check-circle green-color"
+                style="color: #019a0d"
+              >
+              </i>
+              Yes
+            </td>
+            </tr>
+
+            <tr>
+              <th
+                class="fixed-side"
+                style="
+                  font-family: 'Adobe Arabic';
+                  font-weight: 500;
+                  font-size: 20px;
+                  line-height: 24px;
+                  color: #113f9d;
+                  text-align: left;
+                "
+              >
+              Premium song music
+              </th>
+              <td
+                style="
+                  font-family: 'Adobe Arabic';
+                  font-size: 18px;
+                  line-height: 24px;
+                  color: #272727;
+                  text-align: center;
+                "
+              >
+              <svg
+              style="color: #ff2121"
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="bi bi-x-circle-fill"
+              viewbox_table="0 0 16 16"
+            >
+              <path
+                d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM5.354 4.646a.5.5 0 1 0-.708.708L7.293 8l-2.647 2.646a.5.5 0 0 0 .708.708L8 8.707l2.646 2.647a.5.5 0 0 0 .708-.708L8.707 8l2.647-2.646a.5.5 0 0 0-.708-.708L8 7.293 5.354 4.646z"
+              />
+            </svg>
+            No
+              </td>
+              <td
+                style="
+                  font-family: 'Adobe Arabic';
+                  font-size: 18px;
+                  line-height: 24px;
+                  color: #272727;
+                  text-align: center;
+                "
+              >
+                <i
+                  class="fa fa-check-circle green-color"
+                  style="color: #019a0d"
+                >
+                </i>
+                Yes
+              </td>
+              <td
+              style="
+                font-family: 'Adobe Arabic';
+                font-size: 18px;
+                line-height: 24px;
+                color: #272727;
+                text-align: center;
+              "
+            >
+              <i
+                class="fa fa-check-circle green-color"
+                style="color: #019a0d"
+              >
+              </i>
+              Yes
+            </td>
+            </tr>
+
+            <tr>
+              <th
+                class="fixed-side"
+                style="
+                  font-family: 'Adobe Arabic';
+                  font-weight: 500;
+                  font-size: 20px;
+                  line-height: 24px;
+                  color: #113f9d;
+                  text-align: left;
+                  background: #FCFBFB !important;
+                "
+              >
+              AI Digital platform compatibility
+              </th>
+              <td
+                style="
+                  font-family: 'Adobe Arabic';
+                  font-size: 18px;
+                  line-height: 24px;
+                  color: #272727;
+                  text-align: center;
+                "
+              >
+              <svg
+              style="color: #ff2121"
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="bi bi-x-circle-fill"
+              viewbox_table="0 0 16 16"
+            >
+              <path
+                d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM5.354 4.646a.5.5 0 1 0-.708.708L7.293 8l-2.647 2.646a.5.5 0 0 0 .708.708L8 8.707l2.646 2.647a.5.5 0 0 0 .708-.708L8.707 8l2.647-2.646a.5.5 0 0 0-.708-.708L8 7.293 5.354 4.646z"
+              />
+            </svg>
+            No
+              </td>
+              <td
+                style="
+                  font-family: 'Adobe Arabic';
+                  font-size: 18px;
+                  line-height: 24px;
+                  color: #272727;
+                  text-align: center;
+                "
+              >
+                <i
+                  class="fa fa-check-circle green-color"
+                  style="color: #019a0d"
+                >
+                </i>
+                Yes
+              </td>
+              <td
+              style="
+                font-family: 'Adobe Arabic';
+                font-size: 18px;
+                line-height: 24px;
+                color: #272727;
+                text-align: center;
+              "
+            >
+              <i
+                class="fa fa-check-circle green-color"
+                style="color: #019a0d"
+              >
+              </i>
+              Yes
+            </td>
+            </tr>
+
+            <tr>
+              <th
+                class="fixed-side"
+                style="
+                  font-family: 'Adobe Arabic';
+                  font-weight: 500;
+                  font-size: 20px;
+                  line-height: 24px;
+                  color: #113f9d;
+                  text-align: left;
+                "
+              >
+              Storage
+              </th>
+              <td
+                style="
+                  font-family: 'Adobe Arabic';
+                  font-size: 18px;
+                  line-height: 24px;
+                  color: #272727;
+                  text-align: center;
+                "
+              >
+              One week
+              </td>
+              <td
+                style="
+                  font-family: 'Adobe Arabic';
+                  font-size: 18px;
+                  line-height: 24px;
+                  color: #272727;
+                  text-align: center;
+                "
+              >
+              one month
+              </td>
+              <td
+              style="
+                font-family: 'Adobe Arabic';
+                font-size: 18px;
+                line-height: 24px;
+                color: #272727;
+                text-align: center;
+              "
+            >
+            Contact us
+            </td>
+            </tr>
+
+            <tr>
+              <th
+                class="fixed-side"
+                style="
+                  font-family: 'Adobe Arabic';
+                  font-weight: 500;
+                  font-size: 20px;
+                  line-height: 24px;
+                  color: #113f9d;
+                  text-align: left;
+                  background: #FCFBFB !important;
+                "
+              >
+              Cloud Transfers
+              </th>
+              <td
+                style="
+                  font-family: 'Adobe Arabic';
+                  font-size: 18px;
+                  line-height: 24px;
+                  color: #272727;
+                  text-align: center;
+                "
+              >
+              <svg
+              style="color: #ff2121"
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="bi bi-x-circle-fill"
+              viewbox_table="0 0 16 16"
+            >
+              <path
+                d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM5.354 4.646a.5.5 0 1 0-.708.708L7.293 8l-2.647 2.646a.5.5 0 0 0 .708.708L8 8.707l2.646 2.647a.5.5 0 0 0 .708-.708L8.707 8l2.647-2.646a.5.5 0 0 0-.708-.708L8 7.293 5.354 4.646z"
+              />
+            </svg>
+            No
+              </td>
+              <td
+                style="
+                  font-family: 'Adobe Arabic';
+                  font-size: 18px;
+                  line-height: 24px;
+                  color: #272727;
+                  text-align: center;
+                "
+              >
+              <svg
+              style="color: #ff2121"
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="bi bi-x-circle-fill"
+              viewbox_table="0 0 16 16"
+            >
+              <path
+                d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM5.354 4.646a.5.5 0 1 0-.708.708L7.293 8l-2.647 2.646a.5.5 0 0 0 .708.708L8 8.707l2.646 2.647a.5.5 0 0 0 .708-.708L8.707 8l2.647-2.646a.5.5 0 0 0-.708-.708L8 7.293 5.354 4.646z"
+              />
+            </svg>
+            No
+              </td>
+              <td
+              style="
+                font-family: 'Adobe Arabic';
+                font-size: 18px;
+                line-height: 24px;
+                color: #272727;
+                text-align: center;
+              "
+            >
+              <i
+                class="fa fa-check-circle green-color"
+                style="color: #019a0d"
+              >
+              </i>
+              Yes
+            </td>
+            </tr>
+           
+          </tfoot>
+        </table>
+      </div>
+    </div>
+	
+
+
+
+
+
       <!-- table format  old-->
       <!-- <section id="table_format">
         <div class="container">
@@ -1553,7 +2340,7 @@
 
     <!-- arkun demo video -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-    <script>
+    <!-- <script>
       $(".sh_video")
         .parent()
         .click(function () {
@@ -1565,7 +2352,17 @@
             $(this).children(".playpausebtn").fadeIn();
           }
         });
-    </script>
+    </script> -->
+
+
+    <!-- scrolling -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script>
+      // requires jquery library
+          jQuery(document).ready(function() {
+            jQuery(".main-table").clone(true).appendTo('#mobile_table_scroll').addClass('clone');   
+        });
+ </script>
   </body>
   <!--
  JavaScripts
